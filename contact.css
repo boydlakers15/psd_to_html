@@ -1,0 +1,31 @@
+
+
+.contact-paco {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.contact-paco .left-contact .columnas-left-contact{
+    list-style-type: none;
+}
+
+.contact-paco .right-contact{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;    
+}
+
+.contact-paco .right-contact img{
+    width: 10em;
+}
+
+.contact-paco .right-contact .columnas-right-contact{
+    list-style-type: none; 
+}
+
+#text-area{
+    resize: none;
+}
+
+#bot
