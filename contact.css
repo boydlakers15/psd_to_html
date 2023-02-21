@@ -28,4 +28,13 @@
     resize: none;
 }
 
-#bot
+#buttonContact{
+            cursor: pointer;
+            border: 1px solid #33e2f1;;
+            background-color: transparent;
+            height: 30px;
+            width: 100px;
+            color: #33e2f1;
+            font-weight:bold;
+            
+}
