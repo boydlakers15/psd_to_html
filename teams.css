@@ -1,0 +1,27 @@
+.left-column{
+    float: left;
+    width: 25%;
+    
+}
+.right-column{
+    float: left;
+    width: 25%;
+    margin-bottom: 10mm;
+    height: 100px;
+  
+}
+.middle-column{
+    float: left;
+    width: 25%;
+    margin-bottom: 10mm;
+   
+}
+.main-content{
+   
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    white-space: normal; 
+    height: 400px;
+    
+}
