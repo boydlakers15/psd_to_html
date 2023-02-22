@@ -25,3 +25,9 @@
     height: 400px;
     
 }
+#flex {
+    display: flex;
+  }
+  #center {
+    justify-content:  center;
+  }
