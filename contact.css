@@ -39,3 +39,16 @@
             font-weight:bold;
             
 }
+
+/*--RESPONSIV--*/
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+  
