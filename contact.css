@@ -12,16 +12,18 @@
 }
 
 .contact-paco .right-contact{
-    display: flex;
+    display:flex;
     justify-content: center;
     list-style-type: none;    
 }
 
 .contact-paco .right-contact img{
-    width: 10em;
+    width: 7em;
 }
 
+
 .contact-paco .right-contact .columnas-right-contact{
+    
     list-style-type: none; 
 }
 
@@ -42,13 +44,12 @@
 
 /*--RESPONSIV--*/
 @media screen and (max-width: 500px) {
-    .header a {
+    .contact-paco .left-contact .columnas-left-contact > form {
       float: none;
       display: block;
-      text-align: left;
+      
     }
-    .header-right {
+    .contact-paco .left-contact .columnas-left-contact > form {
       float: none;
     }
   }
-  

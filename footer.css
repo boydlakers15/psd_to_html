@@ -1,4 +1,136 @@
 
+.footer-paco{
+   background-image: url("./img/bgk-footer.png");
+   background-image: no-repeat;
+   background-image: fixed;
+   background-image: center;
+   background-size: cover;
+   /*-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;*/
+}
+
+.footer-paco{
+  display:flex;
+  flex-wrap: wrap;
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  color:#fff;
+}
+
+.footer-paco .footer-left{
+  width: 250px;
+  height: 250px;
+  /*overflow: hidden;
+  border: 5 #ffff;
+  background-color: rgb(25, 156, 67);*/
+  
+}
+
+/*
+.footer-paco .footer-center{
+
+  width: 250px;
+  height: 250px;
+  border: 5;
+  border-color: #ffff;
+  background-color: rgb(25, 156, 67);
+  
+
+}
+
+.footer-paco .footer-right{
+  
+  width: 300px;
+  height: 250px;
+  border: 5;
+  background-color: rgb(25, 156, 67);
+}
+*/
+
+/*
+.footer-paco .footer-paco-botton > ul > li{
+  display: flex;
+  flex-wrap: wrap-revers;
+  list-style-type: none; 
+}*/
+
+.footer-paco .footer-left >ul >li >h1{
+  text-align: left;
+  
+}
+
+.footer-paco .footer-center >ul >li >h1{
+  text-align: left;
+  
+}
+
+.footer-paco .footer-right .footer-right-column1 >h1{
+  text-align: left;
+  margin-left: 40px;
+}
+
+
+.footer-paco .footer-right .footer-right-column2 > ul > li{
+   float:left;
+   margin: -3px;
+   list-style-type: none; 
+
+}
+
+.footer-paco .footer-left > ul > li{
+  list-style-type: none; 
+}
+
+.footer-paco .footer-center > ul > li{
+  list-style-type: none; 
+}
+
+.footer-paco .footer-left .icos-footer{
+  
+  width: 2em;
+  height: 2em;
+  
+}
+
+.footer-paco .footer-center .icos-footer{
+  width: 1em;
+  height: 1em;
+  
+}
+
+.footer-paco .footer-right .icos-footer{
+  width: 2em;
+  height: 2em;
+  
+}
+
+#flypaper{
+  
+  width: 4em;
+  height: 2.5em;
+  /*background-color:#DCDCDC;*/
+  background-color: rgba(255,255,255,0.5);
+  opacity:0.8;
+  
+}
+
+
+#buttoncontact-footer{
+  cursor: pointer;
+  border: 1px solid #DCDCDC;;
+  background-color: transparent;
+  height: 25px;
+  color: #DCDCDC;
+  font-weight:bold;
+  margin-left:40px;
+}
+
+#logo_footer{
+  color: #33e2f1 !important;
+}
+
+
 
 /*
 .cards {
