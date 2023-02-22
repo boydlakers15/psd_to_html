@@ -17,17 +17,44 @@
    
 }
 .main-content{
-   
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 25px;
-    white-space: normal; 
-    height: 400px;
-    
+    height: 400px;   
 }
+
 #flex {
     display: flex;
   }
   #center {
     justify-content:  center;
   }
+  footer{
+    
+  }
+  #bottom {
+    display: flex;
+    background-color: Whitesmoke;
+    justify-content: center;
+    min-height: 200px;
+    align-items: center;
+  }
+  h1{
+    
+    background-color: transparent;
+    text-align: center;
+}
+h2{
+    background-color: transparent;
+    text-align: center;
+    flex-flow: column;
+    color: white;
+    text-align: center;
+}
+h3{
+    
+    border: solid blue;
+    background-color: transparent;
+    text-align: center;
+    color: rgb(245, 245, 246);
+    margin: 0 0 70px 0px;
+    text-align: center;
+    
+}

@@ -191,7 +191,10 @@ h1{
     text-align: center;
 }
 h2{
-    background-color: rgb(0, 255, 128);
+    background-color: transparent;
+    text-align: center;
+    flex-flow: column;
+    color: white;
     text-align: center;
 }
 h3{
@@ -199,9 +202,9 @@ h3{
     border: solid blue;
     background-color: transparent;
     text-align: center;
-    color: blue;
+    color: rgb(245, 245, 246);
     margin: 0 0 70px 0px;
-    
+    text-align: center;
     
 }
 
