@@ -1,0 +1,60 @@
+.left-column{
+    float: left;
+    width: 25%;
+    
+}
+.right-column{
+    float: left;
+    width: 25%;
+    margin-bottom: 10mm;
+    height: 100px;
+  
+}
+.middle-column{
+    float: left;
+    width: 25%;
+    margin-bottom: 10mm;
+   
+}
+.main-content{
+    height: 400px;   
+}
+
+#flex {
+    display: flex;
+  }
+  #center {
+    justify-content:  center;
+  }
+  footer{
+    
+  }
+  #bottom {
+    display: flex;
+    background-color: Whitesmoke;
+    justify-content: center;
+    min-height: 200px;
+    align-items: center;
+  }
+  h1{
+    
+    background-color: transparent;
+    text-align: center;
+}
+h2{
+    background-color: transparent;
+    text-align: center;
+    flex-flow: column;
+    color: white;
+    text-align: center;
+}
+h3{
+    
+    border: solid blue;
+    background-color: transparent;
+    text-align: center;
+    color: rgb(245, 245, 246);
+    margin: 0 0 70px 0px;
+    text-align: center;
+    
+}

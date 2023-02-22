@@ -20,8 +20,8 @@ header {
   height: 100%;
   position: relative;
   overflow: hidden;
-  background: url(https://unsplash.imgix.net/45/ZLSw0SXxThSrkXRIiCdT_DSC_0345.jpg?q=75&w=1080&h=1080&fit=max&fm=jpg&auto=format&s=857f07b76abac23a7fb7161cc7b12a46) center no-repeat;
-  /* Image Credit: Unsplash.me */
+  background: url(./img/bgk-header.png) center no-repeat;
+  
   background-size: cover;
 }
 header .content {
@@ -34,6 +34,7 @@ header .content {
 }
 header h1, header h2 {
   margin: 0;
+  
 }
 header h2 {
   text-transform: uppercase;
@@ -101,4 +102,179 @@ img{
 .site nav a:hover{
   background:#333;
   color:#fff
+}
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+.container-fluid.main{
+  position: relative; 
+  padding: 0;
+}
+
+.navbar-default {
+  background-image: none;
+  background-color: transparent; 
+  border: 0;
+  box-shadow: none;
+  padding: 10px;
+  position: absolute; 
+  left: 0;
+  right: 0;
+  z-index: 10; 
+}
+
+.navbar-default .navbar-brand {
+  font-family: Verdana;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+
+.carousel .background {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+@media (max-width:991px) {
+  .carousel .background {
+    background-size: cover; 
+  }
+}
+
+.carousel .background.a {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/92090/pexels-photo-92090-large.jpeg");
+}
+
+.carousel .background.b {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/93750/pexels-photo-93750-large.jpeg");
+}
+
+.carousel .background.c {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/76827/bahia-ocean-bay-boat-76827-large.jpeg");
+}
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition: opacity 0.5s; 
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+  .carousel-fade .carousel-inner > .item.next,
+  .carousel-fade .carousel-inner > .item.active.right {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.prev,
+  .carousel-fade .carousel-inner > .item.active.left {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-fade .carousel-inner > .item.next.left,
+  .carousel-fade .carousel-inner > .item.prev.right,
+  .carousel-fade .carousel-inner > .item.active {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+.covertext {
+  position: absolute; 
+  top: 200px; 
+  left: 0px; 
+  right: 0px; 
+}
+
+.title {
+  font-family: Verdana;
+  font-weight: 600;
+  font-size: 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: Verdana;
+  font-size: 23px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+  border-radius: 30px;
+  padding: 15px 25px;
+  font-size: 22px;
+  background-image: none;
+  background-color: #FF4000;
+  border-color: #FF4000;
+  color: #ffffff;
+}
+
+.btn,
+.btn:hover {
+  border-radius: 0px;
+  background-image: none;
+  background-color: #FF4000;
+  border-color: #FF4000;
+  color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  color: #ffffff;
+  outline: none;
 }
