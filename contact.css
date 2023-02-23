@@ -42,14 +42,17 @@
             
 }
 
-/*--RESPONSIV--*/
+
+
+/*--RESPONSIV----
+
+https://www.w3schools.com/howto/howto_css_responsive_form.asp
+
 @media screen and (max-width: 500px) {
-    .contact-paco .left-contact .columnas-left-contact > form {
-      float: none;
-      display: block;
-      
-    }
-    .contact-paco .left-contact .columnas-left-contact > form {
-      float: none;
-    }
+
+    .contact-paco .left-contact .columnas-left-contact .form-items{
+        width: 100%;
+        margin-top: 0;
   }
+}
+*/
