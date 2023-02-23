@@ -19,13 +19,19 @@
 }
 
 .footer-paco .footer-left{
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 260px;
   /*overflow: hidden;
   border: 5 #ffff;
   background-color: rgb(25, 156, 67);*/
   
 }
+
+#link-blanco {
+  cursor: pointer;
+     
+}
+
 
 /*
 .footer-paco .footer-center{
