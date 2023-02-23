@@ -1,0 +1,27 @@
+.videocontainer{
+
+ background-image: url(./img/bgk-middle.png);  
+ margin-bottom: 500px;
+ 
+} 
+
+.playvideo{
+align-items: center;
+padding-top: 20%;
+margin-bottom: 40px;
+}
+.video{
+width: 200px;
+height: 90px;
+margin-left: 800px;
+margin-bottom: 200px;
+padding-top: 20px;
+}
+.playvideo h1{
+ color: white;
+ margin-left: 800px;
+
+}
+.fa fa-fw fa-home{
+ color: white;   
+}
