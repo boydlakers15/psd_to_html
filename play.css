@@ -1,0 +1,27 @@
+
+.watch-section{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.center-video{
+    
+    background-image: url(./img/bgk-middle.png);  
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    background-size: cover;
+    
+    width:  1100px;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   } 
+
+   #play{
+       cursor: pointer;
+   }
